@@ -1,21 +1,5 @@
 import pyxel
 import random
-
-# html用の処理
-import micropip
-
-
-# 非同期関数を定義
-async def install_packages():
-    # パッケージをインストール
-    await micropip.install("pyyaml")
-
-
-# イベントループで非同期関数を実行
-import asyncio
-
-asyncio.run(install_packages())
-
 import yaml
 
 
